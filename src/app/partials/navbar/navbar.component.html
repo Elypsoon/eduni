@@ -1,0 +1,57 @@
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ng-container>
+                <i class="bi bi-mortarboard-fill"></i>
+                <p class="nav-tittle">EDUNI</p>
+            </ng-container>
+            <ng-template #registraUsers>
+              <label class="navbar-brand" href="#">Registro de usuarios del sistema</label>
+            </ng-template>
+          </ul>
+          <div class="inputCont">
+            <mat-form-field class="search-form-field">
+              <mat-icon matPrefix>search</mat-icon>
+              <input matInput class="search-input" placeholder="Buscar...">
+            </mat-form-field>
+          </div>
+          <form class="d-flex">
+            <div class="dropdown">
+                <button class="btn btn-secundary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-heart-fill"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item">Favorito 1</a></li>
+                    <li><a class="dropdown-item">Favorito 2</a></li>
+                    <li><a class="dropdown-item">Favorito 3</a></li>
+                </ul>
+                <button class="btn btn-secundary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-bell-fill"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item">Notificación 1</a></li>
+                    <li><a class="dropdown-item">Notificación 2</a></li>
+                    <li><a class="dropdown-item">Notificación 3</a></li>
+                </ul>
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Perfil</a></li>
+                <li><a class="dropdown-item">Personalización</a></li>
+                <li><a class="dropdown-item">Historial</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item">Cerrar Sesión</a></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
