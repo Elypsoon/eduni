@@ -27,13 +27,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxStarsModule } from 'ngx-stars';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
+import { FooterComponent } from './partials/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    VisualizacionComponent
+    VisualizacionComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

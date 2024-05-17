@@ -27,6 +27,27 @@
     margin-bottom: 10px;
   }
   
+  .video-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .video-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .video-info mat-icon {
+    margin-right: 8px;
+  }
+  
+  .video-duration {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
 
   .header-home{
     display: flex;
