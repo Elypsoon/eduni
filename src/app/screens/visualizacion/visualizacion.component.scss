@@ -119,3 +119,14 @@
     font-size: 15px; /* Tamaño de fuente más grande para resaltar */
     font-family:'Arial', sans-serif;
   }
+
+  @media (max-width: 768px) {
+    .col-8, .col-4 {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .col-4 {
+      margin-top: 20px;
+    }
+  }
