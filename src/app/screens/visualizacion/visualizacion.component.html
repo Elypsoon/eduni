@@ -8,13 +8,13 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-8 mb-4">
-          <p class="cat mb-5">Programación</p>
-          <p class="nombCurso mb-5">Fundamentos de Python</p>
+        <div class="col-8 mb-2">
+          <p class="categoria mb-2">Programación.</p>
+          <p class="nombCurso mb-2">Fundamentos de Python.</p>
           <p>Este curso introductorio está diseñado para quienes desean aprender Python desde cero. A lo largo de las lecciones, los estudiantes adquirirán una sólida comprensión de los conceptos básicos de programación en Python, incluyendo variables, tipos de datos, estructuras de control, funciones y manejo de archivos. Además, explorarán conceptos esenciales como listas, diccionarios y bucles. Al finalizar, los participantes estarán equipados para desarrollar programas simples y estarán preparados para avanzar hacia temas más complejos en Python.</p>
 
-          <ngx-stars [size]="30" [initialStars]="4.6"></ngx-stars>
-          <p>(1203 calificaciones)</p>
+          <ngx-stars [customSize]="'30px'" [initialStars]="4.6" [color]="'#ffd700'" ></ngx-stars>
+          <p class="calif">(1203 calificaciones)</p>
 
           <p class="col-8">Contenido del curso:</p>
 
@@ -167,8 +167,8 @@
 
         <div class="col-4">
           <div class="info">
-            <img src="../assets/img/python.jpg" alt="Imagen del curso" class="img-fluid align-self-start">
-            <p>En este curso desarrollarás:</p>
+            <img src="../assets/img/python.jpg" alt="Imagen del curso" class="img-fluid align-self-start mb-2">
+            <p style="font-weight: bold;">En este curso desarrollarás:</p>
             <ul>
               <li>Conocimientos básicos de programación en Python</li>
               <li>Comprensión de variables, tipos de datos y estructuras de control</li>
